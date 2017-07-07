@@ -1,0 +1,70 @@
+.outer {
+    border: 2px solid black;
+    background-color: gray;
+    padding: 15px;
+    margin: 40px;
+}
+
+.inner {
+    border: 2px dotted black;
+    background-color: white;
+    width: 50%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    border: 3px solid blue;
+    margin: 20px;
+    padding: 20px;
+    background-color: Azure;
+}
+
+.right {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    width: 33%;
+}
+
+.right_2 {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    width: 33%;
+}
+
+.right_3 {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    width: 33%;
+}
+
+#second {
+    float: left;
+}
+
+.right_4 {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    width: 33%;
+}
+
+#second_4 {
+    clear: right;
+}
+
+.bottom {
+    clear: both;
+}
+
+span {
+    font-weight: bold;
+}
