@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <!--
-Purpose: Test box principles
+Purpose: Examples of CSS sizing and positioning techniques.
 
 Designer: N. S. Clerman, 05-Jul-2017
+
+Revisions
+=========
+1) N. S. Clerman, 07-Jul-2017: Add examples for the position and z-index
+attributes.
 -->
 <html>
   <head>
-    <title>Box Test</title>
+    <title>CSS Sizing & Positioning</title>
     <meta charset="utf-8"/>
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet"
           media="screen"/>
@@ -192,5 +197,113 @@ Designer: N. S. Clerman, 05-Jul-2017
       which is to win the applause of the moment, but as a possession for all
       time.
     </p>
+
+    <!--
+        Position attribute
+    -->
+    <h2>Relative Positioning</h2>
+
+    <h3>Middle bordered paragraph positioned right and up, using attributes top
+    and left</h3>
+
+    <p>
+      The absence of romance in my history will, I fear, detract somewhat from
+      its interest; but if it be judged useful by those inquirers who desire an
+      exact knowledge of the past as an aid to the interpretation of the future,
+      which in the course of human things must resemble if it does not reflect
+      it, I shall be content.
+    </p>
+
+    <p class="offset">
+      <span>class="offset"</span><br />
+      The absence of romance in my history will, I fear, detract somewhat from
+      its interest; but if it be judged useful by those inquirers who desire an
+      exact knowledge of the past as an aid to the interpretation of the future,
+      which in the course of human things must resemble if it does not reflect
+      it, I shall be content. In fine, I have written my work, not as an essay
+      which is to win the applause of the moment, but as a possession for all
+      time.
+    </p>
+
+    <p class="bottom">
+      <span>class="bottom" clear: both;</span><br />
+      The absence of romance in my history will, I fear, detract somewhat from
+      its interest; but if it be judged useful by those inquirers who desire an
+      exact knowledge of the past as an aid to the interpretation of the future,
+      which in the course of human things must resemble if it does not reflect
+      it, I shall be content. In fine, I have written my work, not as an essay
+      which is to win the applause of the moment, but as a possession for all
+      time.
+    </p>
+
+    <h2>Absolute Positioning</h2>
+
+    <div class="box" id="topleft">
+      <span>Top left corner.</span>
+    </div>
+
+    <div class="box" id="topright">
+      <span>Top right corner.</span>
+    </div>
+
+    <div class="box" id="bottomleft">
+      <span>Bottom left corner.</span>
+    </div>
+
+    <div class="box" id="bottomright">
+      <span>Bottom right corner.</span>
+    </div>
+
+    <p>
+      The absence of romance in my history will, I fear, detract somewhat from
+      its interest; but if it be judged useful by those inquirers who desire an
+      exact knowledge of the past as an aid to the interpretation of the future,
+      which in the course of human things must resemble if it does not reflect
+      it, I shall be content.
+    </p>
+
+    <p>
+      The absence of romance in my history will, I fear, detract somewhat from
+      its interest; but if it be judged useful by those inquirers who desire an
+      exact knowledge of the past as an aid to the interpretation of the future,
+      which in the course of human things must resemble if it does not reflect
+      it, I shall be content. In fine, I have written my work, not as an essay
+      which is to win the applause of the moment, but as a possession for all
+      time.
+    </p>
+
+    <h2>Stacking</h2>
+
+    <p class="one">
+      <span>class="one" z-index: 1</span><br />
+      The absence of romance in my history will, I fear, detract somewhat from
+      its interest; but if it be judged useful by those inquirers who desire an
+      exact knowledge of the past as an aid to the interpretation of the future,
+      which in the course of human things must resemble if it does not reflect
+      it, I shall be content.
+    </p>
+
+    <p class="two">
+      <span>class="two" z-index: 2</span><br />
+      The absence of romance in my history will, I fear, detract somewhat from
+      its interest; but if it be judged useful by those inquirers who desire an
+      exact knowledge of the past as an aid to the interpretation of the future,
+      which in the course of human things must resemble if it does not reflect
+      it, I shall be content. In fine, I have written my work, not as an essay
+      which is to win the applause of the moment, but as a possession for all
+      time.
+    </p>
+
+    <p class="three">
+      <span>class="three"</span><br />
+      The absence of romance in my history will, I fear, detract somewhat from
+      its interest; but if it be judged useful by those inquirers who desire an
+      exact knowledge of the past as an aid to the interpretation of the future,
+      which in the course of human things must resemble if it does not reflect
+      it, I shall be content. In fine, I have written my work, not as an essay
+      which is to win the applause of the moment, but as a possession for all
+      time.
+    </p>
+
   </body>
 </html>
